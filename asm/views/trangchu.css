@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+/* menu */
+header {
+    background-color: #fff;
+    padding: 30px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.logo{
+    width: 100px;
+    
+}
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover{
+    color: aqua;
+    text-transform: none;
+    font-size: 30px;
+}
+
+input{
+    padding: 10px;
+    border-radius: 20px;
+}
+button{
+    padding: 10px;
+    border-radius: 20px;
+}
+button:hover{
+    padding: 15px;
+    font-size: 20px;
+    background-color: rgb(207, 239, 239);
+}
+/* banner */
+/* .banner{
+    text-align: center;
+} */
+.image-container {
+    position: relative;
+    /* width: 500px; */
+    height: 600px;
+    overflow: hidden;
+    text-align: center;
+    margin-left: 700px;
+  }
+  
+  .image-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .image-container img.active {
+    opacity: 1;
+  }
+/* sanpham */
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    background-color: rgb(207, 239, 239);
+    flex: 0 0 33.33%;
+    padding: 10px;
+    text-align: center;
+}
+.product p{
+    color: red;
+}
+.product img{
+    border-radius: 20px;
+    width: 300px;
+    height: 500px;
+}
+.product img:hover{
+    width: 400px;
+}
+h3{
+    margin-top: 20px;
+}
+h2{
+    margin-left: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* footer */
+footer{
+    background-color: #fff;
+    padding: 30px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    display: flex;
+    padding-left: 100px;
+}
+.hai{
+    padding-left: 200px;
+}
+.ba{
+    padding-left: 200px;
+}
+h1{
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+p{
+    font-size: 20px;
+    padding-top: 20px;
+}
